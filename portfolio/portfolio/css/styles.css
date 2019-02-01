@@ -6,6 +6,13 @@ body{
 header, main, nav, footer{
     text-align: center;
 }
+underline{
+    color: green;
+}
+
+a{
+    font-size: 1.8em;
+}
 
 #me, #welcomeText {
     float:left;
