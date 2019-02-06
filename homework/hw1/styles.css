@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(200, 200, 230);
+}
+
+.click {
+    color: blue;
+    text-decoration: none;
+    background-color: rgb(84, 199, 199);
+    display: inline-block;
+}
+
+.click:hover {
+    text-decoration: underline;
+    background-color: rgb(84, 247, 248);
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: 2s;
+
+}
+
+current {
+    background-color: white;
+}
+
+hr {
+    border-width: thick;
+}
+
+#header {
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: rgb(0, 178, 255);
+    margin: 50px;
+
+
+}
+
+topic {
+    text-align: center;
+    font-family: Century Gothic;
+
+    font-size: 50px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+
+}
+
+.intro>.information {
+    display: flex;
+    text-align: left;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: black;
+    margin-left: 60px;
+
+}
+
+
+footer {
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: black;
+}
