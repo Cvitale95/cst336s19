@@ -1,0 +1,28 @@
+#main {
+    margin-left: 20px;
+}
+
+#programs {
+    display: flex;
+}
+
+h1 {
+    padding: 20px;
+}
+
+#headerbar {
+    background-color: #002a4e;
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+
+}
+
+#content {
+    font-size: 20px;
+    font-family: calibri;
+}
+
+.images {
+    margin: 20px;
+}
