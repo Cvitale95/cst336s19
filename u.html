@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> </title>
+</head>
+
+<body>
+  <form>
+    Select a Baby Name:
+
+    <div>
+      <input type="radio" id="item1" name="babyname" value="Chris">
+      <label for="item1">Chris</label>
+    </div>
+    <input type="radio" id="item2" name="babyname" value="Nathan">
+    <label for="item2">Nathan</label>
+    <div>
+      <input type="radio" id="item3" name="babyname" value="Zach">
+      <label for="item3">Zach</label>
+    </div>
+    <div>
+      <input type="radio" id="item4" name="babyname" value="Antonio">
+      <label for="item4">Antonio</label>
+    </div>
+    <div>
+      <input type="radio" id="item5" name="babyname" value="Tristan">
+      <label for="item4">Tristan</label>
+    </div>
+    <div>
+      <button> Answer</button>
+  </form>
+<p id = "hi"></p>
+
+<script>
+  var correct = document.querySelector('input[name = "babyname"]:checked').value;
+  var c = correct.value;
+  var hi = document.querySelector('#hi');
+    hi.innerHTML = c;
+</script>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Quiz </title>
+
+    <style>
+    body{
+        background-color: #CFD2D2;
+    }
+    center{
+        font-size: 80px;
+        color: #059695;
+    }
+        #Form {
+            margin: 5px;
+        }
+        #Result{
+            margin: 10px;
+            font-size: 40px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+<center> Quiz!</center>
+    <!-- Question 1-->
+    <div id="Form">
+        <label for="Quiz1"> Quesion One: Who framed Roger Rabbit? </label>
+
+        <div>
+            <input type="radio" id="q11" name="QuestionOne" value="1">
+            <label for="q11"> Eddie Valiant</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q12" name="QuestionOne" value="2">
+            <label for="q12"> Judge Doom</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q13" name="QuestionOne" value="3">
+            <label for="q13"> Jessica Rabbit</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q14" name="QuestionOne" value="4">
+            <label for="q14"> Marvin Acme</label>
+        </div>
+
+    </div>
+
+    <div id="Result1">
+    </div>
+    <!-- Question 2-->
+
+    <div id="Form">
+        <label for="Quiz2"> Question Two: Who is Luke's Father? </label>
+
+        <div>
+            <input type="radio" id="q21" name="QuestionTwo" value="1">
+            <label for="q21"> Darth Vador</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q22" name="QuestionTwo" value="2">
+            <label for="q22"> Obi Wan Kanobi</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q23" name="QuestionTwo" value="3">
+            <label for="q23"> General Tarkin</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q24" name="QuestionTwo" value="4">
+            <label for="q24"> Owen Lars</label>
+        </div>
+
+    </div>
+ <div id="Result2"></div>
+    <!-- Question 3-->
+
+    <div id="Form">
+        <label for="Quiz3"> Question Three: Who was the first President of the United States? </label>
+
+        <div>
+            <input type="radio" id="q31" name="QuestionThree" value="1">
+            <label for="q31">Abraham Lincoln</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q32" name="QuestionThree" value="2">
+            <label for="q32"> John Adams</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q33" name="QuestionThree" value="3">
+            <label for="q33"> Thomas Jefferson</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q34" name="QuestionThree" value="4">
+            <label for="q34"> George Washington</label>
+        </div>
+
+    </div>
+
+    <div id="Result3"></div>
+    <!-- Question 4-->
+
+    <div id="Form">
+        <label for="Quiz4"> Question Four: What house is Harry Potter in? </label>
+
+        <div>
+            <input type="radio" id="q41" name="QuestionFour" value="1">
+            <label for="q41"> Gryffindor</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q42" name="QuestionFour" value="2">
+            <label for="42"> Ravenclaw</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q43" name="QuestionFour" value="3">
+            <label for="q43"> Hufflepuff</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q44" name="QuestionFour" value="4">
+            <label for="q44"> Slytherin</label>
+        </div>
+
+    </div>
+
+<div id="Result4"></div>
+    <!-- Question 5-->
+
+    <div id="Form">
+        <label for="Quiz5"> Question Five: Which actor has won 3 Oscars for Best Actor? </label>
+
+        <div>
+            <input type="radio" id="q51" name="QuestionFive" value="1">
+            <label for="q51"> Leonardo DiCaprio</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q52" name="QuestionFive" value="2">
+            <label for="52"> Marlon Brando</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q53" name="QuestionFive" value="3">
+            <label for="q53"> Daniel Day-Lewis</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q54" name="QuestionFive" value="4">
+            <label for="q54"> Christian Bale</label>
+        </div>
+
+    </div>
+<div id="Result5"></div>
+
+
+ <!-- Question 6-->
+
+    <div id="Form">
+        <label for="Quiz6"> Question Six: Which actress has won 4 Oscars for best actress? </label>
+
+        <div>
+            <input type="radio" id="q61" name="QuestionSix" value="1">
+            <label for="q61"> Meryl Streep</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q62" name="QuestionSix" value="2">
+            <label for="62"> Cate Blanchett</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q63" name="QuestionSix" value="3">
+            <label for="q63"> Jodie Foster</label>
+        </div>
+
+        <div>
+            <input type="radio" id="q64" name="QuestionSix" value="4">
+            <label for="q64"> Katharine Hepburn</label>
+        </div>
+
+    </div>
+<div id="Result6"></div>
+
+
+<button class="q"> Submit</button>
+
+
+<div id = "Result"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        var correctAns1 = "2";
+        var correctAns2 = "1";
+        var correctAns3 = "4";
+        var correctAns4 = "1";
+        var correctAns5 = "3";
+        var correctAns6 = "4";
+        
+        $(function() {
+            $("button.q").on("click", function(e) {
+                var score = 0;
+                var radio1 = $('input[name=\'QuestionOne\']:checked');
+                var guess1 = radio1.val();
+
+                var radio2 = $('input[name=\'QuestionTwo\']:checked');
+                var guess2 = radio2.val();
+
+                var radio3 = $('input[name=\'QuestionThree\']:checked');
+                var guess3 = radio3.val();
+
+                var radio4 = $('input[name=\'QuestionFour\']:checked');
+                var guess4 = radio4.val();
+
+                var radio5 = $('input[name=\'QuestionFive\']:checked');
+                var guess5 = radio5.val();
+                
+                var radio6 = $('input[name=\'QuestionSix\']:checked');
+                var guess6 = radio6.val();
+
+
+                if (guess1 === correctAns1) {
+                    $("#Result1").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result1").html("Wrong. The correct answer is Judge Doom.").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+
+
+                if (guess2 === correctAns2) {
+                    $("#Result2").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result2").html("Wrong. The correct answer is Darth Vador.").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+
+
+                if (guess3 === correctAns3) {
+                    $("#Result3").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result3").html("Wrong. The correct answer is George Washington").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+
+
+                if (guess4 === correctAns4) {
+                    $("#Result4").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result4").html("Wrong. The correct answer is Gryffindor.").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+
+
+                if (guess5 === correctAns5) {
+                    $("#Result5").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result5").html("Wrong. The correct answer is Daniel-Day Lewis.").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+                
+                
+                 if (guess6 === correctAns6) {
+                    $("#Result6").html("That is Correct!").prepend('<img id="green.png" src="green.png" />').css("color", "green");
+                    score++;
+                }
+                else {
+                    $("#Result6").html("Wrong. The correct answer is Katharine Hepburn.").prepend('<img id="red.png" src="red.png" />').css("color", "red");
+                }
+                
+                var total = Math.floor(score / 6 * 100);
+                
+                if (total >= 90){
+                $("#Result").html("Congrats! You got a " + total + "%!").css("color", "green");
+                }
+                else{
+                $("#Result").html("You got a " + total + "%").css("color", "black");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
