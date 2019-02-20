@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms </title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <center>
+        Form About Yourself
+    </center>
+    <div>
+        <label for="firstname"> First Name</label>
+        <input type="text" name="firstname">
+    </div>
+
+    <div>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname">
+    </div>
+
+    <div>
+        <label for="favcolor">Favorite Color</label>
+        <select name="favcolor">
+        <option name = "opt" value="Red">Red</option>
+        <option name = "opt"value="Green">Green</option>
+        <option name = "opt"value="Blue"> Blue</option>
+        <option name = "opt"value="Yellow">Yellow</option>
+        <option name = "opt"value="Orange">Orange</option>
+    </select>
+    </div>
+
+    <div>
+        <label for="subject"> Subjects you like (check all that apply)</label>
+        <div>
+            <input type="checkbox" name="vMath" value="Math"> Math </div>
+        <div>
+            <input type="checkbox" name="vScience" value="Science"> Science </div>
+        <div>
+            <input type="checkbox" name="vEnglish" value="English"> English </div>
+        <div>
+            <input type="checkbox" name="vHistory" value="History"> History </div>
+        <div>
+            <input type="checkbox" name="vPe" value="Pe" checked> PE </div>
+    </div>
+
+
+    <div>
+        <label for="major"> Which of these is your major?</label>
+        <div>
+            <input type="radio" name="Majors" value="Computer Science"> Computer Science</div>
+        <div>
+            <input type="radio" name="Majors" value="Biologist"> Biologist</div>
+        <div>
+            <input type="radio" name="Majors" value="Professor"> Professor</div>
+        <div>
+            <input type="radio" name="Majors" value="Architect"> Architect</div>
+
+    </div>
+
+    <div>
+        <label for="years">How many years have you been in school?</label>
+        <div> <input type="number" name="years" id="years" value=0></div>
+    </div>
+
+    <button class="submit">Submit </button>
+    <div id="write"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("button.submit").on("click", function(e) {
+                var fname = $('input[name=\'firstname\']');
+                var fname1 = fname.val();
+
+                var lname = $('input[name=\'lastname\']');
+                var lname1 = lname.val();
+
+                var color = $('option[name=\'opt\']:checked');
+                var color1 = color.val();
+
+                var major = $('input[name=\'Majors\']:checked');
+                var major1 = major.val();
+
+                var year = $('input[name=\'years\']');
+                var year1 = year.val();
+
+                $('#write').html("Your name is " + fname1 + " " + lname1 + "." +
+                    " Your major is " + major1 + "." +
+                    " You have been in school for " + year1 + " years.").css("color", color1);
+            });
+        });
+    </script>
+</body>
+
+</html>

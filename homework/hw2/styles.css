@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+}
+
+div{
+    margin: 10px;
+}
+
+center{
+    font-size: 60px;
+}
+
+#write{
+    font-size: 30px;
+}
