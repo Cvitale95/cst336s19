@@ -1,0 +1,155 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AJAX: Sign Up Page</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<center>
+  <div id="box">
+
+    <body id="dummybodyid">
+      <h1> <b>Sign Up Form</b> </h1>
+
+      <form>
+        <fieldset>
+          <legend>Sign Up</legend>
+          <div><label>First Name:</label><input type="text"></div>
+          <div><label>Last Name:</label><input type="text"></div>
+          <div><label>Email:</label><input type="text"></div>
+          <div><label>Phone Number:</label><input type="text"></div>
+          <div><label>Zip Code:</label><input type="text" id="zipcode">
+            <zipc></zipc>
+          </div>
+          <div><label>City:</label>
+            <city></city>
+          </div>
+          <div><label>Latitude:</label>
+            <lat></lat>
+          </div>
+          <div><label>Longitude:</label>
+            <long></long>
+          </div>
+          <div><label>State:</label><input type="text" id="state"></div>
+          <div><label>Select a County:</label><select></select></div>
+          <div><label>Desired Username:</label><input type="text" id="user">
+            <username1></username1>
+          </div>
+          <div><label>Password:</label><input type="password" id="passw"></div>
+          <div><label>Type Password Again:</label><input type="password" id="passw2">
+            <passfail></passfail>
+          </div>
+        </fieldset>
+      </form>
+      <button class="s">Submit</button>
+      <div id="worked"></div>
+
+
+
+  </div>
+</center>
+<script>
+  $("button.s").on("click", function(e) {
+    var p = $("#passw").val();
+    var p2 = $("#passw2").val();
+    if (p != p2) {
+      $("passfail").html("Password did not match").css("color", "red");
+      $("#worked").html("");
+    }
+    else {
+      $("passfail").html("Password accepted!").css("color", "green");
+      $("#worked").html("Submitted!").css("color", "blue");
+    }
+  });
+
+  $("#user").change(function() {
+    var check = 0;
+    var usernames = ["Chris", "Alec", "Sandra", "Sal", "1", "2", "3", "4"];
+    for (i = 0; i < usernames.length; i++) {
+      if ($("#user").val() === usernames[i]) {
+        $("username1").html("Username Taken").css("color", "red");
+        check = 1;
+      }
+    }
+    if (check === 0) {
+      $("username1").html("Username Available!").css("color", "green");
+    }
+  });
+
+
+  $("#zipcode").change(function() {
+    getCity();
+  });
+  $("#state").change(function() {
+    getCounty();
+  });
+
+  function getCity() {
+    $.ajax({
+      type: "get",
+      url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+      dataType: "json",
+      data: {
+        "format": "geojson",
+        "zip": $("#zipcode").val()
+
+      },
+      success: function(data, status) {
+        $("city").html(" " + data.city);
+        $("lat").html(" " + data.latitude);
+        $("long").html(" " + data.longitude);
+        $("zipc").html("").css("color", "black");
+
+        if (data.city === undefined) {
+          $("zipc").html("Zip Code not found").css("color", "red");
+          $("city").html("");
+          $("lat").html("");
+          $("long").html("");
+        }
+      },
+      complete: function(data, status) { //optional, used for debugging purposes
+        //console.log(status);
+      },
+
+      error: function(data, status) {
+        $("zipc").html("Zip Code not found").css("color", "red");
+        $("city").html("");
+        $("lat").html("");
+        $("long").html("");
+      }
+    });
+  }
+
+
+  function getCounty() {
+    $.ajax({
+      type: "get",
+      url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+      dataType: "json",
+      data: {
+        "format": "geojson",
+        "state": $("#state").val()
+
+      },
+      success: function(data, status) {
+        var add;
+        var sum;
+        for (i = 0; i < data.length; i++) {
+          add = "<option>" + data[i].county + "</option>";
+          sum = sum + add;
+          $("select").html(sum);
+        }
+        //console.log(data[0].county);
+      },
+      complete: function(data, status) { //optional, used for debugging purposes
+
+      },
+
+      error: function(data, status) {}
+    });
+  }
+</script>
+</body>
+
+</html>
