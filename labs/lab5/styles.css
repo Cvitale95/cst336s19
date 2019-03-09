@@ -1,0 +1,15 @@
+body {
+    background-color: #CAF0FF;
+    font-family: roboto;
+}
+
+fieldset {
+    border-color: blue;
+    width: 600px;
+    text-align: left;
+}
+
+#box {
+    width: 1000px;
+    background-color: white;
+}
