@@ -59,7 +59,7 @@ $("#PromoCode").change(function() {
 
      $.ajax({
       type: "get",
-      url: "http://cvitale-cst336-s1-cvitale.c9users.io/practice/p6/getRandomProduct.php",
+      url: "getRandomProduct.php",
       dataType: "json",
       data: {
         "format": "geojson",
@@ -85,7 +85,7 @@ $("#PromoCode").change(function() {
     function getPromoCode(){
          $.ajax({
       type: "get",
-      url: "http://cvitale-cst336-s1-cvitale.c9users.io/practice/p6/applyPromoCode.php",
+      url: "applyPromoCode.php",
       dataType: "json",
       data: {
         "format": "geojson",
