@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Practice 6</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+<table>
+    <tr>
+        <td id="Product"> </td>
+        <td id = "Price"></td>
+        <td id = "Quantity"></td>
+        <td id = "Total"> total</td>
+    </tr>
+    
+    <tr>
+        <td>Discount</td>
+        <td></td>
+        <td id=Discount>%</td>
+        <td class = percentOff></td>
+    </tr>
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td class = percentOff></td>
+    </tr>
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td class = percentOff></td>
+    </tr>
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td id=Discount></td>
+        <td class = percentOff></td>
+    </tr>
+    
+</table>
+<label><b>Promo Code</b></label><input type="text" id="PromoCode">
+
+
+
+<script>
+
+
+$("#PromoCode").change(function() {
+    console.log("hi");
+    getPromoCode();
+});
+
+
+
+
+
+     $.ajax({
+      type: "get",
+      url: "http://cvitale-cst336-s1-cvitale.c9users.io/practice/p6/getRandomProduct.php",
+      dataType: "json",
+      data: {
+        "format": "geojson",
+        
+
+      },
+      success: function(data, status) {
+       $("#Product").html(data.product);
+       $("#Price").html(data.price);
+       $("#Quantity").html(data.qty);
+       $("#Total").html(data.qty * data.price);
+       
+        
+      },
+      complete: function(data, status) { 
+
+      },
+
+      error: function(data, status) {}
+    });
+    
+    
+    function getPromoCode(){
+         $.ajax({
+      type: "get",
+      url: "http://cvitale-cst336-s1-cvitale.c9users.io/practice/p6/applyPromoCode.php",
+      dataType: "json",
+      data: {
+        "format": "geojson",
+        
+
+      },
+      success: function(data, status) {
+      var pc =$("#PromoCode").val();
+     console.log( $("#PromoCode").val());
+     for($i =0; $i < data.length; $i++){
+         console.log(data[$i].Codes);
+     if(data[$i].Codes === pc){
+         $("#Discount").html(data[$i].Discount);
+     }
+     }
+      },
+      complete: function(data, status) { 
+ 
+      },
+
+      error: function(data, status) {
+          
+      }
+    });
+    }
+</script>
+
+
+
+    </body>
+</html>
