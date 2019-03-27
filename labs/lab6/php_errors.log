@@ -525,3 +525,87 @@ Stack trace:
 #1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 01:50:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 01:54:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(10): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 10
+[27-Mar-2019 02:01:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'18.207.176.253' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:01:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'18.207.176.253' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'34.236.150.123' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:04:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:04:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(3): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:04:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(3): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:04:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(3): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:05:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(3): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:05:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:05:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:07:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:07:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'be4028c0a5d88f'@'%' to database 'ottermart'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=us-c...', 'be4028c0a5d88f', '4840c9b0')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
