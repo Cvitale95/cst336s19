@@ -1,0 +1,515 @@
+[26-Mar-2019 04:56:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 04:56:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 19
+[26-Mar-2019 05:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 05:37:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:04:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:07:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:07:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:11:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:22:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 06:25:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:01:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:04:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:07:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:07:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:08:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:12:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:12:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:13:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:13:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38
+[26-Mar-2019 18:13:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/api/getSearchResults.php on line 38

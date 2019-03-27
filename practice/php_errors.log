@@ -1,0 +1,9 @@
+[25-Mar-2019 19:45:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/practice/p6/connect.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/practice/p6/connect.php(20): PDO->prepare('select * from m...')
+#1 /home/ubuntu/workspace/practice/p6/connect.php(27): getDBConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/practice/p6/connect.php on line 20
+[25-Mar-2019 20:10:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/practice/p7/getAll.php on line 6
+[25-Mar-2019 20:10:06 UTC] PHP Stack trace:
+[25-Mar-2019 20:10:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/p7/getAll.php:0
