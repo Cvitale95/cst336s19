@@ -609,3 +609,15 @@ Stack trace:
 #1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:19:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user '”root”'@'localhost' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=loca...', '???root???', '')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
+[27-Mar-2019 02:25:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e668be4425805cc'' in /home/ubuntu/workspace/labs/lab6/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/labs/lab6/api/getCategories.php(4): getDatabaseConnection('heroku_e668be44...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/dbConnection.php on line 19
