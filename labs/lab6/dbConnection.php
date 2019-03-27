@@ -7,10 +7,10 @@ function getDatabaseConnection($dbname = 'ottermart'){
     
         if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-        $host = $url["host"];
+        $host = $url["us-cdbr-iron-east-03.cleardb.net"];
         $dbname = substr($url["path"], 1);
-        $username = $url["user"];
-        $password = $url["pass"];
+        $username = $url["be4028c0a5d88f"];
+        $password = $url["4840c9b0"];
     } 
 
     
