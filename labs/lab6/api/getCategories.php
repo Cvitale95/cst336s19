@@ -1,7 +1,7 @@
 <?php
 include '../dbConnection.php';
 
-$conn = getDatabaseConnection("ottermart");
+$conn = getDatabaseConnection("heroku_e668be4425805cc");
 
 $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
 

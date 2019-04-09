@@ -1,6 +1,6 @@
 <?php
 include '../dbConnection.php';
-$conn = getDatabaseConnection("ottermart");
+$conn = getDatabaseConnection("heroku_e668be4425805cc");
 
 $productId = $_GET['productId'];
 $sql = "SELECT * 
