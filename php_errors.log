@@ -1,0 +1,165 @@
+[27-Mar-2019 21:31:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:31:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:32:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:32:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:32:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:32:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:33:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:34:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:34:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:34:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:36:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:36:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:40:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:41:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:42:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''match' ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[27-Mar-2019 21:43:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match ORDER BY user_id' at line 1' in /home/ubuntu/workspace/midterm/getMatch.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
