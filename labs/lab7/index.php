@@ -77,10 +77,18 @@
                 
             }); //end document.ready()
         </script>
+        
+        
+        <style>
+            logout{
+                  text-align: right;
+            }
+        </style>
     </head>
     
     <body>
         <div>
+            <logout> <a href="login.html">Logout</a></logout>
             <h1>OtterMart Product Search</h1>
             
             <form>
