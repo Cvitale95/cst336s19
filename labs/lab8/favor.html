@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PixieBay Favorites </title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         
+         <style>
+             
+             div{
+            font-family: roboto;
+            font-size: 20px;
+             }
+         </style>
+    </head>
+    <body>
+        <script>
+ $(document).ready(function(){
+     var sum = "";
+     var u_a = [];
+        u_a.push();
+    $.ajax({
+                    type: "GET",
+                    url: "viewfav.php",
+                    dataType: "json",
+                    success: function(data, status){
+                        data.forEach(function(key){
+                            sum = sum + "<img src =" + key["url"] + " width=300 height300><br>";
+                            $("#idk").html(sum);
+                        });
+                    }
+                });
+ 
+ 
+  });
+  </script>
+  
+  <div>
+      <a href="index.html">Return the search page.</a>
+  </div>
+  <div id="idk"></div>
+    </body>
+</html>

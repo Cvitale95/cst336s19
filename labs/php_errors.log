@@ -1,0 +1,83 @@
+[17-Apr-2019 21:34:50 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/labs/lab8/index.php on line 20
+[17-Apr-2019 21:34:50 UTC] PHP Stack trace:
+[17-Apr-2019 21:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/index.php:0
+[17-Apr-2019 21:47:33 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/labs/lab8/index.php on line 20
+[17-Apr-2019 21:47:33 UTC] PHP Stack trace:
+[17-Apr-2019 21:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/index.php:0
+[23-Apr-2019 21:37:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''imgurl' ('url') VALUES ('Today is my birthday')' at line 1' in /home/ubuntu/workspace/labs/lab8/db.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/db.php(12): PDO->query('INSERT INTO 'im...')
+#1 /home/ubuntu/workspace/labs/lab8/insert.php(4): getDatabaseConnection('favorites')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/db.php on line 12
+[23-Apr-2019 21:39:52 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab8/insert.php on line 10
+[23-Apr-2019 21:39:52 UTC] PHP Stack trace:
+[23-Apr-2019 21:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/insert.php:0
+[23-Apr-2019 21:39:52 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/labs/lab8/insert.php:10
+[23-Apr-2019 21:46:32 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab8/insert.php on line 10
+[23-Apr-2019 21:46:32 UTC] PHP Stack trace:
+[23-Apr-2019 21:46:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/insert.php:0
+[23-Apr-2019 21:46:32 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/labs/lab8/insert.php:10
+[23-Apr-2019 21:46:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''imgurl' ('url') VALUES ('Today is my birthday')' at line 1' in /home/ubuntu/workspace/labs/lab8/insert.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/insert.php(11): PDO->query('INSERT INTO 'im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/insert.php on line 11
+[23-Apr-2019 21:46:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''imgurl' ('url') VALUES ('Today is my birthday')' at line 1' in /home/ubuntu/workspace/labs/lab8/insert.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/insert.php(11): PDO->query('INSERT INTO 'im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/insert.php on line 11
+[23-Apr-2019 21:49:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''imgurl' ('url') VALUES ('Today is my birthday')' at line 1' in /home/ubuntu/workspace/labs/lab8/insert.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/insert.php(11): PDO->query('INSERT INTO 'im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/insert.php on line 11
+[23-Apr-2019 21:55:40 UTC] PHP Fatal error:  Call to undefined method PDO::close() in /home/ubuntu/workspace/labs/lab8/insert.php on line 12
+[23-Apr-2019 21:55:40 UTC] PHP Stack trace:
+[23-Apr-2019 21:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/insert.php:0
+[23-Apr-2019 22:05:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e830b7062ffd053ed1584d05fb1d4393eb7ee6d611ac104490f6c17ca0ecb' at line 1' in /home/ubuntu/workspace/labs/lab8/insert.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/insert.php(11): PDO->query('INSERT INTO `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/insert.php on line 11
+[23-Apr-2019 22:43:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 22:43:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 22:43:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 22:43:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 22:43:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 22:43:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '://pixabay.com/get/e83db7092df0083ed1584d05fb1d4393eb7ee6d611ac104490f6c17caeeeb' at line 1' in /home/ubuntu/workspace/labs/lab8/delete.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/delete.php(6): PDO->query('DELETE FROM `im...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/delete.php on line 6
+[23-Apr-2019 23:59:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'' in /home/ubuntu/workspace/labs/lab8/viewfav.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/viewfav.php(6): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/viewfav.php on line 6
+[23-Apr-2019 23:59:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'' in /home/ubuntu/workspace/labs/lab8/viewfav.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab8/viewfav.php(6): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab8/viewfav.php on line 6

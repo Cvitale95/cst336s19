@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> PixieBay Search(Lab8)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <style>
+        div {
+            margin: 30px;
+        }
+        .column1 {
+            display: flex;
+        }
+        .column2 {
+            display: flex;
+        }
+        .column3 {
+            display: flex;
+        }
+        
+          button {
+            background-color: white;
+            border: none;
+            color: #00b8e6;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 30px;
+            border: 4px solid #00b8e6;
+        }
+
+        button:hover {
+            background-color: #00b8e6;
+            color: white;
+        }
+
+        input {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+
+        center {
+            font-family: roboto;
+            font-size: 20px;
+
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function() {
+            var ifav = [11];
+            $(document).on('click', '#search', function() {
+                $.ajax({
+                    type: "GET",
+                    url: "curl.php",
+                    dataType: "json",
+                    data: {
+                        "q": $("#textbox").val()
+                    },
+                    success: function(data, status) {
+                        for (var i = 1; i < 10; i++) {
+                            $("#img" + i).html(" <img src= " + data.hits[i].largeImageURL + "alt=Image height=400 width=400>");
+                            $("#like" + i).html("<img src=white.png width=50 height=50 id=wht" + i + ">");
+                            ifav[i] = data.hits[i].largeImageURL;
+                        }
+                    }
+                }); ///end of ajax call
+            }); //button on clikc
+
+            $(document).on('click', '#wht1', function() {
+                $("#wht1").attr('src', 'red.png');
+                $("#wht1").attr('id', 'rd1');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[1]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+            $(document).on('click', '#rd1', function() {
+                $("#rd1").attr('src', 'white.png');
+                $("#rd1").attr('id', 'wht1');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[1]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+            //////////////////////////////////////////////
+            $(document).on('click', '#wht2', function() {
+                $("#wht2").attr('src', 'red.png');
+                $("#wht2").attr('id', 'rd2');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[2]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+            $(document).on('click', '#rd2', function() {
+                $("#rd2").attr('src', 'white.png');
+                $("#rd2").attr('id', 'wht2');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[2]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+
+            //////////////////////////////////////////////
+            $(document).on('click', '#wht3', function() {
+                $("#wht3").attr('src', 'red.png');
+                $("#wht3").attr('id', 'rd3');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[3]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+            $(document).on('click', '#rd3', function() {
+                $("#rd3").attr('src', 'white.png');
+                $("#rd3").attr('id', 'wht3');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[3]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+            }); //button red
+
+            //////////////////////////////////////////////
+            $(document).on('click', '#wht4', function() {
+                $("#wht4").attr('src', 'red.png');
+                $("#wht4").attr('id', 'rd4');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[4]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+
+            $(document).on('click', '#rd4', function() {
+                $("#rd4").attr('src', 'white.png');
+                $("#rd4").attr('id', 'wht4');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[4]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+
+            //////////////////////////////////////////////
+
+            $(document).on('click', '#wht5', function() {
+                $("#wht5").attr('src', 'red.png');
+                $("#wht5").attr('id', 'rd5');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[5]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+
+            $(document).on('click', '#rd5', function() {
+                $("#rd5").attr('src', 'white.png');
+                $("#rd5").attr('id', 'wht5');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[5]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+
+            //////////////////////////////////////////////
+
+            $(document).on('click', '#wht6', function() {
+                $("#wht6").attr('src', 'red.png');
+                $("#wht6").attr('id', 'rd6');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[6]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+            $(document).on('click', '#rd6', function() {
+                $("#rd6").attr('src', 'white.png');
+                $("#rd6").attr('id', 'wht6');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[6]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+            //////////////////////////////////////////////
+
+            $(document).on('click', '#wht7', function() {
+                $("#wht7").attr('src', 'red.png');
+                $("#wht7").attr('id', 'rd7');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[7]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+            $(document).on('click', '#rd7', function() {
+                $("#rd7").attr('src', 'white.png');
+                $("#rd7").attr('id', 'wht7');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[7]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+
+            //////////////////////////////////////////////
+            $(document).on('click', '#wht8', function() {
+                $("#wht8").attr('src', 'red.png');
+                $("#wht8").attr('id', 'rd8');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[8]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+            $(document).on('click', '#rd8', function() {
+                $("#rd8").attr('src', 'white.png');
+                $("#rd8").attr('id', 'wht8');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[8]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+            }); //button red
+
+            //////////////////////////////////////////////
+
+            $(document).on('click', '#wht9', function() {
+                $("#wht9").attr('src', 'red.png');
+                $("#wht9").attr('id', 'rd9');
+                $.ajax({
+                    type: "GET",
+                    url: "insert.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[9]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button white
+
+
+            $(document).on('click', '#rd9', function() {
+                $("#rd9").attr('src', 'white.png');
+                $("#rd9").attr('id', 'wht9');
+                $.ajax({
+                    type: "GET",
+                    url: "delete.php",
+                    dataType: "json",
+                    data: {
+                        "iconfav": ifav[9]
+                    },
+                    success: function(data, status) {}
+                }); ///end of ajax call
+
+
+            }); //button red
+
+
+
+
+
+
+        }); //end of jquery
+    </script>
+    <center>
+<a href="favor.html"> View Favorites</a>
+<br>
+    <input type="text" id="textbox">
+    <br>
+    <button type="button" id="search"> Search </button>
+    </center>
+    <div class="column1">
+        <div id="img1"> </div>
+        <div id="like1"> </div>
+        <div id="img2"> </div>
+        <div id="like2"> </div>
+        <div id="img3"></div>
+        <div id="like3"> </div>
+    </div>
+    <div class="column2">
+        <div id="img4"> </div>
+        <div id="like4"> </div>
+        <div id="img5"> </div>
+        <div id="like5"> </div>
+        <div id="img6"> </div>
+        <div id="like6"> </div>
+    </div>
+    <div class="column3">
+        <div id="img7"> </div>
+        <div id="like7"> </div>
+        <div id="img8"> </div>
+        <div id="like8"> </div>
+        <div id="img9"> </div>
+        <div id="like9"> </div>
+    </div>
+</body>
+
+</html>
