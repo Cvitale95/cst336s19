@@ -2,7 +2,7 @@
  include 'dbConn.php';
  $conn = getDatabaseConnection("imgUpload");
  
- $sql= "SELECT fileName FROM imgTable";
+ $sql= "SELECT fileName FROM imgtable";
  
 $stmt = $conn->prepare($sql);
 $stmt->execute();
