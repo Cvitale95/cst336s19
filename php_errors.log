@@ -163,3 +163,4 @@ Stack trace:
 #0 /home/ubuntu/workspace/midterm/getMatch.php(9): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
+[30-Apr-2019 22:58:51 UTC] PHP Warning:  POST Content-Length of 24798829 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
