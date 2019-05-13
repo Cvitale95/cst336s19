@@ -1,0 +1,33 @@
+body{
+    background-color: #E4FEFF
+}
+br{
+    margin: 10px;
+}
+
+.s{
+    background-color: #0096A1;
+     color: white;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.delete{
+    background-color: #E50000;
+    color: white;
+    display: inline-block;
+    border: none;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+  background-color: #0096A1;
+  color: white;
+}

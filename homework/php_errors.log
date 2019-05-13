@@ -436,3 +436,30 @@ Stack trace:
 #1 /home/ubuntu/workspace/homework/hw5/index.php(91): getDatabaseConnection('heroku_e668be44...')
 #2 {main}
   thrown in /home/ubuntu/workspace/homework/hw5/dbConn.php on line 17
+[01-May-2019 03:47:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e668be4425805cc'' in /home/ubuntu/workspace/homework/hw5/dbConn.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/homework/hw5/dbConn.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/homework/hw5/index.php(91): getDatabaseConnection('heroku_e668be44...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/homework/hw5/dbConn.php on line 17
+[01-May-2019 03:47:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'imgUpload.imgtable' doesn't exist' in /home/ubuntu/workspace/homework/hw5/download.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/homework/hw5/download.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/homework/hw5/download.php on line 8
+[01-May-2019 03:47:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'imgUpload.imgtable' doesn't exist' in /home/ubuntu/workspace/homework/hw5/download.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/homework/hw5/download.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/homework/hw5/download.php on line 8
+[01-May-2019 03:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e668be4425805cc'' in /home/ubuntu/workspace/homework/hw5/dbConn.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/homework/hw5/dbConn.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/homework/hw5/index.php(91): getDatabaseConnection('heroku_e668be44...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/homework/hw5/dbConn.php on line 17
+[01-May-2019 03:47:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'imgUpload.imgtable' doesn't exist' in /home/ubuntu/workspace/homework/hw5/download.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/homework/hw5/download.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/homework/hw5/download.php on line 8

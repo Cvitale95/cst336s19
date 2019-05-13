@@ -88,12 +88,12 @@ if (isset($_POST['uploadForm'])) {
       $fileContents = file_get_contents($_FILES["fileName"]["tmp_name"]);
       /*Insert into Database*/
       include 'dbConn.php';
-      $conn = getDatabaseConnection("heroku_e668be4425805cc");
+      $conn = getDatabaseConnection("imgUpload");
       $binaryData = file_get_contents($_FILES["fileName"]["tmp_name"]);
-      $sql = "INSERT INTO `imgtable` (`fileName`,`fileType`, `fileData` ) " .
+      $sql = "INSERT INTO `imgTable` (`fileName`,`fileType`, `fileData` ) " .
             "  VALUES ('$fileName','$fileType' ,'$fileContents' ); ";
       $conn->query($sql);
-      echo "Here is the image you just uploaded into the database!(hover over the image)<br>";
+      echo "Here is the image you just uploaded into the database!(hover over the image<br>";
     
     function createThumbnail(){
     $sourcefile = imagecreatefromstring(file_get_contents($_FILES["fileName"]["tmp_name"]));

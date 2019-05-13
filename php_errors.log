@@ -164,3 +164,28 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/midterm/getMatch.php on line 9
 [30-Apr-2019 22:58:51 UTC] PHP Warning:  POST Content-Length of 24798829 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-May-2019 05:56:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '00:00:00' for key 'start'' in /home/ubuntu/workspace/final/insert.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/insert.php on line 9
+[13-May-2019 06:04:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '00:00:00' for key 'start'' in /home/ubuntu/workspace/final/insert.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/insert.php on line 9
+[13-May-2019 06:04:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '00:00:00' for key 'start'' in /home/ubuntu/workspace/final/insert.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/insert.php on line 9
+[13-May-2019 06:04:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '00:00:00' for key 'start'' in /home/ubuntu/workspace/final/insert.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/insert.php on line 9
+[13-May-2019 06:21:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09:06:00' for key 'start'' in /home/ubuntu/workspace/final/insert.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/insert.php on line 9
