@@ -189,3 +189,15 @@ Stack trace:
 #0 /home/ubuntu/workspace/final/insert.php(9): PDO->query('INSERT INTO `ti...')
 #1 {main}
   thrown in /home/ubuntu/workspace/final/insert.php on line 9
+[13-May-2019 18:16:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e668be4425805cc'' in /home/ubuntu/workspace/final/db.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/final/db.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/final/display.php(3): getDatabaseConnection('heroku_e668be44...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/final/db.php on line 20
+[13-May-2019 18:16:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e668be4425805cc'' in /home/ubuntu/workspace/final/db.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/final/db.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/final/display.php(3): getDatabaseConnection('heroku_e668be44...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/final/db.php on line 20

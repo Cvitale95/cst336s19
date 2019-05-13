@@ -1,6 +1,7 @@
 <?php
 include 'db.php';
-$conn = getDatabaseConnection("cstFinal");
+$conn = getDatabaseConnection("heroku_e668be4425805cc");
+//$conn = getDatabaseConnection("cstFinal");
 $date = $_GET["date"];
 $start = $_GET["start"];
 $end = $_GET["end"];

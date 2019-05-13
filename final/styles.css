@@ -1,8 +1,16 @@
 body{
-    background-color: #E4FEFF
+    background-color: #E4FEFF;
+    font-family: roboto;
 }
 br{
     margin: 10px;
+}
+
+input{
+    padding: 6px 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 20px;
 }
 
 .s{
@@ -26,7 +34,10 @@ th, td {
   text-align: left;
   padding: 8px;
 }
-tr:nth-child(even){background-color: #f2f2f2}
+tr{
+    background-color: #f2f2f2
+    
+}
 th {
   background-color: #0096A1;
   color: white;

@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
-$conn = getDatabaseConnection("heroku_e668be4425805cc");
-//$conn = getDatabaseConnection("cstFinal");
+//$conn = getDatabaseConnection("heroku_e668be4425805cc");
+$conn = getDatabaseConnection("cstFinal");
 $sql ="SELECT * FROM `time`";
 $stmt = $conn->prepare($sql);
 $stmt->execute();

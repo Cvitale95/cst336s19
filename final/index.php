@@ -9,6 +9,9 @@
     </head>
     <body>
 <center>
+  <a href= "https://cvitale95-cst336s19.herokuapp.com/final/index.php"> Heroku App</a>
+  <a href= "ERD.html"> ERD Map</a>
+  <br><br>
 Date: <input type="date" id ="datetime"> <br>
 Start Time: <input type="time" id="startTime"> <br>
 End Time: <input type="time" id="endTime"> <br>
